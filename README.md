@@ -35,7 +35,7 @@ Tener instalado el SDK de .NET 8 o superior.
 
 2. Clonar y preparar
 PowerShell
-# Restaurar dependencias
+Restaurar dependencias
 dotnet restore
 3. Ejecutar la API
 PowerShell
