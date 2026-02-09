@@ -2,17 +2,18 @@
 
 Esta es una Web API desarrollada en .NET 8 diseñada para gestionar tareas pendientes de forma eficiente. El sistema incluye una base de datos local y lógica inteligente para la clasificación automática de prioridades.
 
-##Características Principales
-*CRUD Completo: Creación, lectura, actualización y eliminación de tareas.
+## Características Principales
 
-Persistencia de Datos: Uso de SQLite con Entity Framework Core para el almacenamiento local.
+* CRUD Completo: Creación, lectura, actualización y eliminación de tareas.
 
-Lógica Inteligente: Asignación automática de prioridad "Alta" si la descripción contiene la palabra "urgente".
+* Persistencia de Datos: Uso de SQLite con Entity Framework Core para el almacenamiento local.
 
-Validación de Negocio: El sistema impide la creación de tareas con fechas de vencimiento pasadas.
+* Lógica Inteligente: Asignación automática de prioridad "Alta" si la descripción contiene la palabra "urgente".
 
-Documentación Interactiva: Implementación de Swagger para pruebas rápidas de los endpoints.
+* Validación de Negocio: El sistema impide la creación de tareas con fechas de vencimiento pasadas.
 
-Aseguramiento de Calidad: Suite de pruebas unitarias desarrolladas con xUnit.
+* Documentación Interactiva: Implementación de Swagger para pruebas rápidas de los endpoints.
 
-🛠️ Tecnologías Utilizadas
+* Aseguramiento de Calidad: Suite de pruebas unitarias desarrolladas con xUnit.
+
+## Tecnologías Utilizadas
